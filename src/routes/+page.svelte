@@ -6,9 +6,13 @@
 </script>
 
 <section
-	class="bg-primary w-screen h-screen text-typography-primary px-[7vw] py-10 lg:py-4 items-center flex lg:gap-24 gap-12 flex-col-reverse lg:flex-row text-center md:text-left justify-center"
+	class="w-screen min-h-screen px-[7vw] py-10 lg:py-4
+		bg-primary text-typography-primary text-center md:text-left
+		items-center flex flex-col-reverse lg:flex-row justify-center
+		lg:gap-48 gap-12
+	"
 >
-	<div class="lg:flex-grow flex-shrink-0 flex md:block flex-col items-center">
+	<div class="flex-shrink-0 flex md:block flex-col items-center">
 		<h1 class="md:text-4xl mb-4 md:mb-2 text-3xl">
 			Hi! I'm <span class="text-typography-accent font-medium">Andrey&nbspEfremenkov</span>
 		</h1>
@@ -46,14 +50,14 @@
 			</li>
 		</ul>
 	</div>
-	<div class="lg:flex-grow flex justify-center flex-shrink">
+	<div class="flex justify-center flex-shrink">
 		<picture>
 			<source srcset="profile_image.jpg, profile_image@2x.jpg 2x" />
 			<source srcset="profile_image.jpg, profile_image@3x.jpg 3x" />
 			<img
 				src="profile_image.jpg"
 				alt="Andrey Efremenkov"
-				class="rounded-xl max-w-[350px] max-h-[350px] lg:max-w-[500px] lg:max-h-[500px] w-full"
+				class="rounded-xl max-w-[250px] max-h-[250px] lg:max-w-[350px] lg:max-h-[350px] w-full"
 			/>
 		</picture>
 	</div>

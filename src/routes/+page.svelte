@@ -17,7 +17,7 @@
 			Hi! I'm <span class="text-typography-accent font-medium">Andrey&nbspEfremenkov</span>
 		</h1>
 		<p class="mb-6 max-w-[470px] text-base">
-			I'm <span class="underline">fullstack engineer</span>, experienced in building complicated
+			I'm a <span class="underline">fullstack engineer</span>, experienced in building complicated
 			scalable web applications.
 		</p>
 		<p class="mb-1 text-base">You can get in touch with me with one of this channels:</p>

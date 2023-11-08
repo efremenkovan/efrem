@@ -21,13 +21,15 @@
 			scalable web applications.
 		</p>
 		<p class="mb-1 text-base">You can get in touch with me with one of this channels:</p>
-		<ul class="text-base flex md:gap-2 md:justify-start justify-center flex-col md:flex-row mb-6">
-			<li>
+		<ul
+			class="text-base flex md:gap-2 md:justify-start justify-center flex-col md:flex-row mb-6 items-center"
+		>
+			<li class="md:-ml-2">
 				<a href="https://t.me/t415mn" class="link">
 					<TelegramIcon class="w-4 h-4 md:hidden" />telegram
 				</a>
 			</li>
-			<li class="text-typography-secondary md:inline hidden">|</li>
+			<li class="text-typography-secondary md:inline hidden py-1">|</li>
 			<li>
 				<a href="mailto:efremenkovan99@gmail.com" class="link">
 					<EmailIcon class="w-4 h-4 md:hidden" />email
@@ -36,13 +38,15 @@
 		</ul>
 
 		<p class="text-base">You can also find me on:</p>
-		<ul class="text-base flex md:gap-2 md:justify-start justify-center flex-col md:flex-row">
-			<li>
+		<ul
+			class="text-base flex md:gap-2 md:justify-start justify-center flex-col md:flex-row items-center"
+		>
+			<li class="md:-ml-2">
 				<a href="https://github.com/efremenkovan" class="link">
 					<GithubIcon class="w-4 h-4 md:hidden" />github
 				</a>
 			</li>
-			<li class="text-typography-secondary md:inline hidden">|</li>
+			<li class="text-typography-secondary md:inline hidden py-1">|</li>
 			<li>
 				<a href="https://www.linkedin.com/in/andrey-efremenkov-68845a208" class="link">
 					<LinkedInIcon class="w-4 h-4 md:hidden" />linkedin
@@ -66,10 +70,6 @@
 <style lang="postcss">
 	.link {
 		@apply text-typography-link gap-2 flex items-center px-4 py-1 md:px-2 relative;
-	}
-
-	.link:first-child {
-		@apply -ml-2;
 	}
 
 	.link::before {
